@@ -2,25 +2,356 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Portfolio website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index,follow" />
-    <meta name="description" content="TODO: Portfolio website ..." />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Jackson Carver - Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Line icons-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
     <link rel="stylesheet" href="./stylesheets/main.scss" />
   </head>
-
-  <body>
-    <!-- Your HTML goes here -->
-    <h1 class="display-2 text-center my-5 py-5">
-      <span class="d-block py-5 mt-5">
-        <i class="bi bi-filetype-html text-primary"></i> / <i class="bi bi-filetype-css text-danger"></i> /
-        <i class="bi bi-filetype-js text-success"></i>
-      </span>
-
-      Portfolio Website
-    </h1>
-
+  <body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand"><a href="#page-top">Jackson Carver</a></li>
+        <li class="sidebar-nav-item"><a href="./index.html">Home</a></li>
+        <li class="sidebar-nav-item"><a href="./portfolio.html">Portfolio</a></li>
+        <li class="sidebar-nav-item"><a href="./about.html">About</a></li>
+        <li class="sidebar-nav-item"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+      <div class="container px-4 px-lg-5 text-center">
+        <h1 class="mb-1">Developing and Designing Amazing Web Applications For Your Business</h1>
+        <h3 class="mb-5"><em>- Jackson Carver</em></h3>
+      </div>
+    </header>
+    <!-- About-->
+    <section class="content-section bg-light" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-5">
+            <h2>Hey There!</h2>
+            <p class="lead mb-5">
+              Lets keep it short, I'm a Developer that specializes in delivering high quality website designs and mobile
+              applications for any kind of busniess. Want to know more? Visit my About Page!
+            </p>
+          </div>
+          <div class="col-md-5 text-center">
+            <a class="btn btn-contact btn-homepage btn-xl" href="./about.html">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services-->
+    <section class="content-section bg-five text-center" id="services">
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+          <h2 class="mb-5 content-section-dark">I Love Making Websites Using:</h2>
+        </div>
+        <div class="row gx-4 gx-lg-5 mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-solid fa-a"></i></span>
+            <h4 class="service-icon-text"><strong>Adobe</strong></h4>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-brands fa-js"></i></span>
+            <h4 class="service-icon-text"><strong>Javascript</strong></h4>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-brands fa-html5"></i></span>
+            <h4 class="service-icon-text"><strong>HTML 5</strong></h4>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-brands fa-css3"></i></span>
+            <h4 class="service-icon-text"><strong>CSS</strong></h4>
+          </div>
+        </div>
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-brands fa-windows"></i></span>
+            <h4 class="service-icon-text"><strong>Visual Studio</strong></h4>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-brands fa-github"></i></span>
+            <h4 class="service-icon-text"><strong>GitHub</strong></h4>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-brands fa-react"></i></span>
+            <h4 class="service-icon-text"><strong>React</strong></h4>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon square mx-auto mb-3"><i class="fa-brands fa-python"></i></span>
+            <h4 class="service-icon-text"><strong>Python</strong></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial-->
+    <section class="content-section bg-four">
+      <div class="container text-center">
+        <div class="content-section-heading">
+          <h2 class="mb-5">Just Look at My Reviews!</h2>
+        </div>
+        <div id="myCarousel" class="carousel slide mb-6 bg-white" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="bg-div"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <img class="carousel-img" src="./assets/img/tonyKeller.jpg" alt="pic of tony keller" />
+                  <h1 class="pt-3">Tony Keller</h1>
+                  <p class="pt-1">
+                    "Very nice work on the websites! Love the way you made everything so responsive and tie together so
+                    well!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-div"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <img class="carousel-img" src="./assets/img/benHarry.jpg" alt="pic of ben harry" />
+                  <h1 class="pt-3">Ben Harry</h1>
+                  <p class="pt-1">
+                    "I looked over all the other websites you have designed, I really like how they look! Maybe I've
+                    gotta get one from ya sometime!"
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-div"></div>
+              <div class="container">
+                <div class="carousel-caption">
+                  <img class="carousel-img" src="./assets/img/jordanMitchell.jpg" alt="pic of jordan mitchell" />
+                  <h1 class="pt-3">Jordan Mitchell</h1>
+                  <p class="pt-1">
+                    "Nice designs! I really don't know how you do it, but you make really good websites!"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Skills-->
+    <section class="skills bg-three">
+      <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mx-auto mb-5">I have plenty of experience in Web Developing & Designing!</h2>
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask full25">
+                  <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-solid fa-a"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-brands fa-js"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask full25">
+                  <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-brands fa-html5"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-brands fa-css3"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-4 gx-lg-5 mb-5">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask full25">
+                  <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-brands fa-windows"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-brands fa-github"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-brands fa-react"></i></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 circle-wrap">
+              <div class="circle">
+                <div class="mask full75">
+                  <div class="fill75"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+                <div class="inside-circle"><i class="fa-brands fa-python"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio-->
+    <section class="content-section bg-four" id="portfolio">
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">Here's Some of my Top Projects!</h2>
+        </div>
+        <div class="row gx-0">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="./cardeal.html">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Cardeal Project</div>
+                  <p class="mb-0">Involved using advanced CSS to create a website for an online car dealership.</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio-1.png" alt="car dealership website" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="./crest.html">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Crest Consulting</div>
+                  <p class="mb-0">
+                    Built a website for a firm that that specializes in providing a full service real estate to multiple
+                    commercial and residential real estate consulting services.
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio-6.png" alt="crest consulting business firm homepage" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="./gamingPlatforms.html">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">All About Gaming Platforms!</div>
+                  <p class="mb-0">
+                    A website I created for Web 2620 as a class project. It put my skills to the test with designing a
+                    website using a mockup, prototype, and Visual Studio Code. The website is based around gaming
+                    platforms with multiple differences between each one.
+                  </p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio-2.png"
+                alt="gaming platforms website with games and consoles"
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="./examplePortfolio.html">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Portfolio Example</div>
+                  <p class="mb-0">
+                    With Sass and Bootstrap 5, I was able to create a single-page portfolio page that was adapted from a
+                    youtube course. The assignment was from my WEB 2890 course, it required all the basics that I have
+                    learned from previous classes.
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio-3.png" alt="example of portfolio from a class" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center" id="contact">
+      <div class="container px-4 px-lg-5">
+        <h2 class="mb-5 text-white">Contact Me!</h2>
+        <p class="mb-5 footer-text">jacksoncarver@mail.weber.edu</p>
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link square text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link square text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link square text-white" href="#!"><i class="icon-social-instagram"></i></a>
+          </li>
+        </ul>
+        <p class="mb-0 footer-text">Copyright &copy; Jackson Carver 2023</p>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
     <script type="module" src="./javascripts/main.js"></script>
   </body>
 </html>
