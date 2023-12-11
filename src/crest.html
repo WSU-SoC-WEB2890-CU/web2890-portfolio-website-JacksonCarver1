@@ -20,15 +20,40 @@
   </head>
   <body id="page-top">
     <!-- Navigation-->
-    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand"><a href="#page-top">Jackson Carver</a></li>
-        <li class="sidebar-nav-item"><a href="./index.html">Home</a></li>
-        <li class="sidebar-nav-item"><a href="./portfolio.html">Portfolio</a></li>
-        <li class="sidebar-nav-item"><a href="./about.html">About</a></li>
-        <li class="sidebar-nav-item"><a href="./contact.html">Contact</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand d-md-none d-xs-block py-3" href="#">
+          <h1 height="40">Jackson Carver</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- Header-->
     <header class="masthead d-flex align-items-center">
@@ -101,7 +126,13 @@
             <a class="social-link square text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link square text-white" href="#!"><i class="icon-social-instagram"></i></a>
+            <a
+              class="social-link square text-white"
+              href="https://www.instagram.com/da_best_jackson/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="icon-social-instagram"></i
+            ></a>
           </li>
         </ul>
         <p class="mb-0 footer-text">Copyright &copy; Jackson Carver 2023</p>

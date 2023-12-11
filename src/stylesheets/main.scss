@@ -58,6 +58,15 @@ html {
   background-color: $near-white;
 }
 
+.bg-clouds {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
+    url("../assets/img/bg-desk3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -822,4 +831,16 @@ footer.footer .social-link:hover {
   color: $secondary-color;
   font-size: 20px;
   font-weight: bold;
+}
+
+/* More Navbar Styles */
+
+@media screen and (min-width: 777px) {
+  .nav-link {
+    padding: 18px 0;
+    min-width: 120px;
+  }
+  .navbar {
+    padding: 0;
+  }
 }
